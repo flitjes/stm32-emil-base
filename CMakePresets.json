@@ -63,6 +63,18 @@
         "TARGET_MCU_FAMILY": "stm32g4xx",
         "TARGET_MCU": "stm32g431"
       }
+    },
+    {
+      "name": "stm32f429zi",
+      "displayName": "stm32f429zi",
+      "description": "Build for stm32f429zi",
+      "inherits": "stm32",
+      "toolchainFile": "${sourceDir}/amp-embedded-infra-lib/cmake/toolchain-arm-gcc-m4-fpv4-sp-d16.cmake",
+      "cacheVariables": {
+        "TARGET_CORTEX": "m4",
+        "TARGET_MCU_FAMILY": "stm32f4xx",
+        "TARGET_MCU": "stm32f429"
+      }
     }
   ],
   "buildPresets": [

@@ -13,7 +13,7 @@ int main()
     // ConfigureDefaultClockNucleo767ZI();
 
     static main_::StmEventInfrastructure eventInfrastructure;
-    static main_::NUCLEO ui;
+    static main_::Nucleo144Ui ui;
     static services::DebugLed debugLed(ui.ledGreen);
 
     eventInfrastructure.Run();
